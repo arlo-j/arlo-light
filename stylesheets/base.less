@@ -1,0 +1,144 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "colors";
+
+.editor-colors {
+  background-color: @base03;
+  color: @base0;
+}
+
+.cursor-line {
+  /*background-color: @whiteFaint;*/
+}
+.editor {
+
+  .invisible-character,
+  .indent-guide {
+    color: @base01;
+  }
+
+  .indent-guide {
+    opacity: 0.5;
+
+  }
+
+  .gutter {
+    background-color: @base02;
+    margin-right: 10px;
+  }
+
+  .gutter .line-number {
+    opacity: 0.5;
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @darkgray;
+    background-color: @base01;
+  }
+
+  .cursor {
+    border-color: @darkteal;
+  }
+
+  .selection .region {
+    background-color: @base01;
+    color: @base03;
+  }
+
+  .line-number.cursor-line-no-selection {
+    background-color: @base01;
+    color: @white;
+  }
+}
+
+.bracket-matcher {
+  background-color: @base01;
+  opacity: 0.7;
+}
+
+.comment {
+  color: @base01;
+  font-style: italic;
+}
+
+.entity {
+  color: @yellow;
+}
+
+.keyword {
+  color: @green;
+}
+
+.storage.type {
+  color: @green;
+}
+
+.constant {
+  color: @yellow;
+
+  &.numeric,
+  &.boolean {
+    color: @cyan;
+  }
+}
+
+.variable {
+  color: @blue;
+}
+
+.delimiter, .brace {
+  color: @red;
+}
+
+.delimiter.period {
+  color: @green;
+}
+
+.invalid.deprecated {
+  text-decoration: underline;
+  color: @red;
+}
+
+.invalid.illegal {
+  color: @red;
+}
+
+.punctuation.definition.tag,
+.entity.name.tag {
+  color: @lightblue;
+  background-color: @lightblueBG;
+}
+
+.entity.attribute-name {
+  color: @blue;
+  background-color: @blueBG;
+}
+
+.handlebars.variable,
+.meta.function.inline.other.handlebars {
+  color: @violet;
+  background-color: @violetBG;
+}
+
+.string {
+  color: @red;
+  background-color: @redBG;
+
+  .constant.character.escape {
+    color: @red;
+  }
+
+  &.regexp {
+    color: @cyan;
+
+    .source.ruby.embedded,
+    .string.regexp.arbitrary-repitition {
+      color: @red;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Arlo (Light)",
+  "theme": "syntax",
+  "version": "0.0.2",
+  "private": false,
+  "description": "[Work in progress!] A light theme designed by Arlo Jamrog.  Mainly for HTML, with partial support for Handlebars if Atom Handlebars and Language Handlebars are installed.",
+  "repository": "https://github.com/atom/arlo-light",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
