@@ -1,7 +1,3 @@
 # Arlo Light theme for Atom
 
-<<<<<<< HEAD
 [Work in progress!] A light theme for the Atom editor.  Mainly for HTML, with partial support for Handlebars if Atom Handlebars and Language Handlebars are installed.
-=======
-[Work in progress!] A light theme designed for the Atom editor.  Mainly for HTML, with partial support for Handlebars if Atom Handlebars and Language Handlebars are installed.
->>>>>>> FETCH_HEAD
